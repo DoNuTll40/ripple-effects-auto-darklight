@@ -25,10 +25,10 @@ pnpm add @nuttawoot_donut/react-ripple
 
 ---
 
-## การใช้งาน (React / Next.js)
+## การใช้งาน (JavaScript)
 > ใช้ใน **Client Component** เท่านั้น
 
-```tsx
+```jsx
 import React from "react";
 import Ripple from "@nuttawoot_donut/react-ripple";
 
@@ -64,6 +64,30 @@ export default function DemoButtons() {
 ```
 
 > หมายเหตุ: ถ้า host element เป็น `position: static` ไลบรารีจะตั้งเป็น `position: relative` ให้เองเพื่อวาด ripple ให้เต็มกรอบ
+
+---
+
+## การใช้งานกับ TypeScript
+
+แพ็กเกจนี้มีไฟล์ประกาศประเภท (`index.d.ts`) มาให้แล้ว
+
+```tsx
+import Ripple, { RippleOptions } from "@nuttawoot_donut/react-ripple";
+
+const ripple = new Ripple();
+
+function Btn() {
+  const opts: RippleOptions = { color: "#046838", alpha: 0.18 };
+
+  return (
+    <button
+      onMouseDown={(e) => ripple.create(e, opts)}
+      onKeyDown={(e) => ripple.create(e, "dark")}
+    >
+      Click
+    </button>
+  );
+}
 
 ---
 
