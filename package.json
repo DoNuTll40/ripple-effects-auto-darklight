@@ -1,25 +1,26 @@
 {
-  "name": "material-ripple-effects",
-  "version": "2.0.1",
-  "description": "Material Design Ripple Effects",
+  "name": "@donutll40/react-ripple",
+  "version": "2.0.2-donut",
+  "description": "Ripple effects with automatic dark/light theme detection (based on material-ripple-effects)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test yet\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sajadevo/material-ripple.git"
+    "url": "git+https://github.com/DoNuTll40/ripple-effects-auto-darklight.git"
   },
   "keywords": [
     "material design",
     "ripple effect",
-    "material-ripple",
-    "ripple"
+    "auto dark mode",
+    "ripple",
+    "donut"
   ],
-  "author": "Sajad Ahmad Nawabi",
+  "author": "DoNuTll40",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sajadevo/material-ripple-effects/issues"
+    "url": "https://github.com/DoNuTll40/ripple-effects-auto-darklight/issues"
   },
-  "homepage": "https://github.com/sajadevo/material-ripple-effects#readme"
+  "homepage": "https://github.com/DoNuTll40/ripple-effects-auto-darklight#readme"
 }
