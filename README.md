@@ -157,7 +157,7 @@ ripple.create(e, { color: "rgba(4,104,56,0.18)" });
 ไฟล์ build มี `ripple.js` ที่ expose `window.Ripple`
 
 ```html
-<script src="https://unpkg.com/@nuttawoot_donut/react-ripple@2.0.3/index.js"></script>
+<script src="https://unpkg.com/@nuttawoot_donut/react-ripple/ripple.js"></script>
 
 <button id="btn">Ripple Me</button>
 <script>

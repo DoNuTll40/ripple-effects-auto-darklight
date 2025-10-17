@@ -3,6 +3,22 @@
   "version": "2.0.3",
   "description": "Ripple effects with automatic dark/light theme detection (based on material-ripple-effects)",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./ripple.js": "./ripple.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "ripple.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"no test yet\""
   },
