@@ -1,6 +1,6 @@
 {
-  "name": "@donutll40/react-ripple",
-  "version": "2.0.2-donut",
+  "name": "@nuttawoot_donut/react-ripple",
+  "version": "2.0.2",
   "description": "Ripple effects with automatic dark/light theme detection (based on material-ripple-effects)",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/DoNuTll40/ripple-effects-auto-darklight/issues"
   },
-  "homepage": "https://github.com/DoNuTll40/ripple-effects-auto-darklight#readme"
+  "homepage": "https://github.com/DoNuTll40/ripple-effects-auto-darklight#readme",
+  "publishConfig": { "access": "public" }
 }
